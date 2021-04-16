@@ -1,0 +1,11 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgba(134, 134, 134, 0.5);
+}
+
+li:active {
+    font-family: fantasy, sans-serif;
+}
