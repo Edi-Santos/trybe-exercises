@@ -1,0 +1,18 @@
+ol {
+    margin: auto;
+    padding: 5px 3px;
+    max-width: 90%;
+    background-color: yellow;
+}
+
+ol li:nth-child(2n+0) {
+    color: green;
+}
+
+ol li:nth-child(2),
+li:nth-child(2n+3) {
+    text-transform: uppercase;
+}
+/* Casses */
+
+/* IDs */
