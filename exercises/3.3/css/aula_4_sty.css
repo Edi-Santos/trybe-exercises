@@ -28,8 +28,12 @@ ul li:nth-child(-n+3) {
     color: blue;
 }
 
-#java {
+ul li#java {
     color: pink;
+}
+
+ul li a:hover {
+    font-weight: bold;
 }
 
 li {
