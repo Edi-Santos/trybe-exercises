@@ -24,6 +24,14 @@ li:nth-child(2n+3) {
     text-transform: uppercase;
 }
 
+ul li:nth-child(-n+3) {
+    color: blue;
+}
+
+#java {
+    color: pink;
+}
+
 li {
     font-size: 20px;
 }
@@ -31,6 +39,7 @@ li {
 li em {
     font-weight: bold;
 }
+
 /* Casses */
 
 /* IDs */
