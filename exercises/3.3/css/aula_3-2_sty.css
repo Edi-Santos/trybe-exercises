@@ -1,0 +1,39 @@
+div:hover {
+    border: 3px solid wheat;
+}
+
+h3 {
+    padding: 5px;
+    font-family: monospace;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3:active {
+    color: white;
+}
+
+.odd {
+    font-style: oblique;
+}
+
+#primary {
+    background-color: blue;
+}
+
+#secondary {
+    background-color: violet;
+}
+
+#complementary {
+    padding: 2em;
+    background-color: magenta;
+}
+
+#dark-color {
+    background-color: darkslategrey;
+}
+
+#bright-color {
+    background-color: wheat;
+}
