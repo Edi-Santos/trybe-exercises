@@ -46,12 +46,19 @@ console.log(tasksList + '\n');
 console.log('Acessa o índice pelo elemento');
 
 let indexOfTask = tasksList.indexOf('Reunião');
-console.log(indexOfTask + '\n');
+console.log(indexOfTask);
+console.log('-----------------------------' + '\n');
 
 
 // Exercícios
 // Exercício 1 - Obtenha o valor "Serviços" do array menu 
+console.log('Exercícios')
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
 
 console.log(menuServices);
+
+// Exercício 2 - Procure o índice do valor "Portfólio" do array menu
+let indexOfMenu = menu.indexOf('Portfólio');
+
+console.log(indexOfMenu);
