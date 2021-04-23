@@ -1,3 +1,4 @@
+// Exercício 1
 let a = 5;
 let b = 8;
 
@@ -12,3 +13,10 @@ console.log("subtração = " + subtr);
 console.log("multiplicação = " + mult);
 console.log("divisão = " + divide);
 console.log("modulação = " + mod);
+
+// Exercício 2
+if(a > b) {
+    console.log("\n a é maior que b");
+}else {
+    console.log("\n b é maior que a");
+}
