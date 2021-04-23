@@ -46,3 +46,28 @@ if(a4 > 0) {
 }else {
     console.log("zero \n");
 }
+
+// Exercício 5
+let angulo1 = 60;
+let angulo2 = -61;
+let angulo3 = 60;
+let triangulo;
+
+if(angulo1 < 0 || angulo2 < 0 || angulo3 < 0) {
+    triangulo = "erro";
+}else if(angulo1 + angulo2 + angulo3 == 180){
+    triangulo = "true";
+}else if(angulo1 + angulo2 + angulo3 != 180) {
+    triangulo = "false";
+}
+
+switch(triangulo) {
+    case "true":
+        console.log("true");
+        break;
+    case "false":
+        console.log("false");
+        break;
+    default:
+        console.log("error");
+}
