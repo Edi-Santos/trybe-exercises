@@ -20,3 +20,18 @@ if(a > b) {
 }else {
     console.log("\n b é maior que a");
 }
+
+// Exercício 3
+let a3 = 15;
+let b3 = 3;
+let c3 = 16;
+
+if(a3 > b3 && a > c3) {
+    console.log("\n a3 é o maior número \n");
+}else if(b3 > a3 && b3 > c3) {
+    console.log("\n b3 é o maior número \n");
+}else if(c3 > a3 && c3 > b3) {
+    console.log("\n c3 é o maior número \n");
+}else {
+    console.log('\n Error!');
+}
