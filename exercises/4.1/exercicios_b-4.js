@@ -35,3 +35,14 @@ if(a3 > b3 && a > c3) {
 }else {
     console.log('\n Error!');
 }
+
+// Exercício 4
+let a4 = -3;
+
+if(a4 > 0) {
+    console.log("positive \n");
+}else if(a4 < 0) {
+    console.log("negative \n");
+}else {
+    console.log("zero \n");
+}
