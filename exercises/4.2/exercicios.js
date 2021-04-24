@@ -60,3 +60,15 @@ for(index = 0; index < numbers.length; index += 1) {
     }
 }
 console.log(impar);
+
+console.log('\n');
+
+// Exercício 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o
+console.log('Exercício 7:');
+let menorNumero = maiorNumero;
+for(index = 0; index < numbers.length; index += 1) {
+    if(numbers[index] < menorNumero) {
+        menorNumero = numbers[index];
+    }
+}
+console.log(menorNumero);
