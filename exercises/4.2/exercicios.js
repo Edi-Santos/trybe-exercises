@@ -15,3 +15,14 @@ for(let sum of numbers) {
     sum += 1;
     console.log(sum);
 }
+
+console.log('\n');
+
+// Exercício 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array
+console.log('Exercício 3:');
+let somatorio = 0;
+for(index = 0; index < numbers.length; index += 1) {
+    somatorio = somatorio + numbers[index];
+}
+let media = somatorio / numbers.length;
+console.log(`média = ${media}`);
