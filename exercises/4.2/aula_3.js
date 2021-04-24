@@ -12,3 +12,12 @@ let word = "Hello";
 for(let letter of word) {
     console.log(letter);
 }
+
+console.log('\n');
+
+// Laço for/of para somar um valar em cada elemento
+let arrOfNumbers = [10, 20, 30];
+for(let sum of arrOfNumbers) {
+    sum += 1;
+    console.log(sum);
+}
