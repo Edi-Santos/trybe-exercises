@@ -81,3 +81,12 @@ for(index = 1; index <= 25; index += 1) {
     sequenciaNum.push(index);
 }
 console.log(sequenciaNum);
+
+console.log('\n');
+
+// Exercício 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+console.log('Exercício 9:');
+for(index = 0; index < sequenciaNum.length; index += 1) {
+    let divSequencia = sequenciaNum[index] / 2;
+    console.log(divSequencia);
+}
