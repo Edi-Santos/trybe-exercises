@@ -88,5 +88,5 @@ console.log('\n');
 console.log('Exercício 9:');
 for(index = 0; index < sequenciaNum.length; index += 1) {
     let divSequencia = sequenciaNum[index] / 2;
-    console.log(divSequencia);
+    console.log(`${sequenciaNum[index]} / 2 = ${divSequencia}`);
 }
