@@ -1,7 +1,7 @@
 // Exercícios do bloco 4.2
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// Exercícios 1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() 
+// Exercícios 1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
 console.log('Exercício 1:');
 for(index = 0; index < numbers.length; index += 1) {
     console.log(numbers[index]);
@@ -9,7 +9,7 @@ for(index = 0; index < numbers.length; index += 1) {
 
 console.log('\n');
 
-// Exercício 2 - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado
+// Exercício 2 - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 console.log('Exercício 2:');
 for(let sum of numbers) {
     sum += 1;
@@ -18,7 +18,7 @@ for(let sum of numbers) {
 
 console.log('\n');
 
-// Exercício 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array
+// Exercício 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 console.log('Exercício 3:');
 let somatorio = 0;
 for(index = 0; index < numbers.length; index += 1) {
@@ -29,7 +29,7 @@ console.log(`média = ${media}`);
 
 console.log('\n');
 
-// Exercício 4 - Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20"
+// Exercício 4 - Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
 console.log('Exercício 4:');
 if(media > 20) {
     console.log('valor maior que 20');
@@ -39,7 +39,7 @@ if(media > 20) {
 
 console.log('\n');
 
-// Exercício 5 - Utilizando for , descubra qual o maior valor contido no array e imprima-o
+// Exercício 5 - Utilizando for , descubra qual o maior valor contido no array e imprima-o;
 console.log('Exercício 5:');
 let maiorNumero = 0;
 for(index = 0; index < numbers.length; index += 1) {
@@ -48,3 +48,15 @@ for(index = 0; index < numbers.length; index += 1) {
     }
 }
 console.log(maiorNumero);
+
+console.log('\n');
+
+// Exercício 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+console.log('Exercício 6:');
+let impar = 0;
+for(index = 0; index < numbers.length; index += 1) {
+    if(numbers[index] % 2 != 0) {
+        impar += 1;
+    }
+}
+console.log(impar);
