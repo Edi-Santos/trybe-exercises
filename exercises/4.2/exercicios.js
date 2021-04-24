@@ -63,7 +63,7 @@ console.log(impar);
 
 console.log('\n');
 
-// Exercício 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o
+// Exercício 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 console.log('Exercício 7:');
 let menorNumero = maiorNumero;
 for(index = 0; index < numbers.length; index += 1) {
@@ -72,3 +72,12 @@ for(index = 0; index < numbers.length; index += 1) {
     }
 }
 console.log(menorNumero);
+
+console.log('\n');
+// Exercício 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+console.log('Exercício 8:');
+let sequenciaNum = [];
+for(index = 1; index <= 25; index += 1) {
+    sequenciaNum.push(index);
+}
+console.log(sequenciaNum);
