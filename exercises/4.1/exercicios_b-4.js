@@ -154,4 +154,13 @@ console.log('\n');
 
 // Exercício 9 - Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
 // Bonus: use somente um if.
-let
+console.log('Exercício 9');
+let numImp1 = 9;
+let numImp2 = 2;
+let numImp3 = 6;
+
+if(numImp1 % 2 != 0 || numImp2 % 2 != 0 || numImp3 % 2 != 0) {
+    console.log('true');
+}else {
+    console.log('false');
+}
