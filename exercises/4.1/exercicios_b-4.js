@@ -134,3 +134,18 @@ if(porcentagem >= 90 && porcentagem <= 100) {
 }else {
     console.log('error');
 }
+
+console.log('\n');
+
+// Exercício 8 - Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+// Bonus: use somente um if.
+console.log('Exercício 8')
+let n1 = 7;
+let n2 = 10;
+let n3 = 1;
+
+if(n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
+    console.log('true');
+}else {
+    console.log('false');
+}
