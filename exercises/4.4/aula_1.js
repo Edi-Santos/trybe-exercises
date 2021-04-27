@@ -13,3 +13,6 @@ let player = {
         silver: 3
     }
 };
+
+// Acesse a chave name, lastName e age. Concatene as informações para fazer um console.log no seguinte formato: "A jogadora Marta Silva tem 34 anos de idade".
+console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
