@@ -19,3 +19,6 @@ console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + play
 
 //Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as datas em que a jogadora Marta foi considerada a melhor do mundo.
 player['bestInTheWorld'] = [2006, 2007, 2008, 2009, 2010, 2018];
+
+// Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
+console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
