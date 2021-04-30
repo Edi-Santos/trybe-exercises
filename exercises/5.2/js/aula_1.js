@@ -21,3 +21,7 @@ console.log(firstSonByElem);
 // Exercise 6 - Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
 let textByElem = document.getElementById('elementoOndeVoceEsta').nextSibling;
 console.log(textByElem);
+
+// Exercise 7 - Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+let thirdSonByElem = document.getElementById('elementoOndeVoceEsta').nextElementSibling;
+console.log(thirdSonByElem);
