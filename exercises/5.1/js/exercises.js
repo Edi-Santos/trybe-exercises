@@ -32,3 +32,10 @@ let sectionNTEH3 = document.querySelectorAll('.no-emergency-tasks h3');
 for (let i = 0; i < sectionNTEH3.length; i++) {
     sectionNTEH3[i].style.background = 'black';
 }
+
+// Footer
+let footer = document.getElementById('footer-container');
+footer.style.background = 'rgb(19, 49, 29)';
+
+let footerDiv = document.querySelector('#footer-container div');
+footerDiv.style.background = 'rgb(19, 49, 29)';
