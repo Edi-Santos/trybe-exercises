@@ -14,3 +14,6 @@ firstSonOfSon.innerHTML = 'Div primeiroFilhoDoFilho';
 let firstSonOfSonByFather = document.querySelector('#pai').firstElementChild;
 console.log(firstSonOfSonByFather);
 
+// Exercise 5 - Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+let firstSonByElem = document.getElementById('elementoOndeVoceEsta').previousElementSibling;
+console.log(firstSonByElem);
