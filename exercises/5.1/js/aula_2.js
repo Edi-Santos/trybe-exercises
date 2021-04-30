@@ -9,3 +9,8 @@ prg[0].style.fontFamily = 'monospace';
 
 // Exercício 3 - Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .
 document.getElementsByTagName('h4')[0].style.color = 'purple';
+
+// Extra
+for (let i = 0; i < prg.length; i ++){
+    prg[i].style.color = 'red';
+}
