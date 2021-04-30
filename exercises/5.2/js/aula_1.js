@@ -17,3 +17,7 @@ console.log(firstSonOfSonByFather);
 // Exercise 5 - Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
 let firstSonByElem = document.getElementById('elementoOndeVoceEsta').previousElementSibling;
 console.log(firstSonByElem);
+
+// Exercise 6 - Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+let textByElem = document.getElementById('elementoOndeVoceEsta').nextSibling;
+console.log(textByElem);
