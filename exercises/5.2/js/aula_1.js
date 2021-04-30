@@ -25,3 +25,7 @@ console.log(textByElem);
 // Exercise 7 - Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 let thirdSonByElem = document.getElementById('elementoOndeVoceEsta').nextElementSibling;
 console.log(thirdSonByElem);
+
+// Exercise 8 - Agora acesse o terceiroFilho a partir de pai.
+let thirdSonByFather = document.getElementById('pai').lastElementChild.previousElementSibling;
+console.log(thirdSonByFather);
