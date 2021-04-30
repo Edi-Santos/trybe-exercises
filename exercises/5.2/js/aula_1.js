@@ -10,3 +10,7 @@ acces2.style.background = 'Cyan';
 let firstSonOfSon = document.getElementById('primeiroFilhoDoFilho');
 firstSonOfSon.innerHTML = 'Div primeiroFilhoDoFilho';
 
+// Exercise 4 - Acesse o primeiroFilho a partir de pai.
+let firstSonOfSonByFather = document.querySelector('#pai').firstElementChild;
+console.log(firstSonOfSonByFather);
+
