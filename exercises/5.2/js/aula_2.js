@@ -15,3 +15,12 @@ creatingElement2.innerHTML = '<p>Criando filho de elementoOndeVoceEsta</p>';
 creatingElement2.className = 'adiciona-filho';
 
 elementoOndeVoceEsta.appendChild(creatingElement2);
+
+// Exercício 3 - Crie um filho para primeiroFilhoDoFilho.
+let filhoDoFilho = document.getElementById('elementoOndeVoceEsta').firstElementChild;
+
+let creatingElement3 = document.createElement('div');
+creatingElement3.innerHTML = '<p>Criando filho do filho de elementoOndeVoceEsta';
+creatingElement3.className = 'adiciona-filho-do-filho';
+
+filhoDoFilho.appendChild(creatingElement3);
