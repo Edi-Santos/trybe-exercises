@@ -24,3 +24,6 @@ creatingElement3.innerHTML = '<p>Criando filho do filho de elementoOndeVoceEsta'
 creatingElement3.className = 'adiciona-filho-do-filho';
 
 filhoDoFilho.appendChild(creatingElement3);
+
+// Exercício 4 - A partir desse filho criado, acesse terceiroFilho.
+console.log(document.querySelector('.adiciona-filho-do-filho').parentElement.parentElement.nextElementSibling);
