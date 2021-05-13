@@ -101,7 +101,6 @@ let fridays = [4, 11, 18, 25];
 
 takeBtnFriday.addEventListener('click', function() {
   let takeFriday = document.getElementsByClassName('friday');
-  console.log(takeFriday)
   
   for (let index = 0; index < takeFriday.length; index += 1) {
 
