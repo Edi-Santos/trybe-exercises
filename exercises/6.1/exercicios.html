@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+    	<meta charset="UTF-8">
+		<title>Exercícios - Bloco 6.1</title>
+	</head>
+	<body>
+		<form action="" method="get">
+      		<div>
+        	<!-- Exercício 1 - Crie um <fieldset> para os seguintes dados pessoais:
+
+                Nome - Texto, Limite de 40 caracteres, Campo obrigatório
+                
+                Email - Texto, Limite de 50 caracteres, Campo obrigatório
+                
+                CPF - Texto, Limite de 11 caracteres, Campo obrigatório
+                
+                Endereço - Texto, Limite de 200 caracteres, Campo obrigatório
+                
+                Cidade - Texto, Limite de 28 caracteres, Campo obrigatório
+                
+                Estado - Select, Todos os estados do Brasil, Utilize estruturas de repetição via JavaScript para gerar os <option>, Campo obrigatório
+                
+                Tipo - Radio Button, Casa, Apartamento, Campo obrigatório -->
+        		<fieldset>
+					<legend>Infos Pessoais</legend>
+					<label for="nome-completo">Nome completo:</label>
+					<input type="text" name="nome" id="nome-completo" maxlength="40" placeholder="Digite seu nome." autocomplete="off" required>
+					<br>
+					<label for="e-mail">E-mail:</label>
+					<input type="email" name="email" id="e-mail" maxlength="50" placeholder="Digite seu e-mail." required>
+					<br>
+					<label for="cpf">CPF:</label>
+					<input type="text" name="cpf" id="cpf" maxlength="11" placeholder="Digite seu CPF." required>
+					<br>
+					<label for="endereco">Endereço:</label>
+					<input type="text" name="endereco" id="endereco" maxlength="200" placeholder="Digite seu endereço" required>
+					<br>
+					<label for="cidade">Cidade:</label>
+					<input type="text" name="cidade" id="cidade" maxlength="28" placeholder="Digite sua cidade" required>
+					<br>
+					<label for="estado">Seu Estado</label>
+					<select name="estado" id="estado">
+					</select>
+					<br>
+					<label for="casa">
+						<input type="radio" name="lar" id="casa">Casa
+					</label>
+					<label for="apartamento">
+						<input type="radio" name="lar" id="apartamento">Apartamento
+					</label>
+       	 		</fieldset>
+      		</div>
+    	</form>
+	</body>
+</html>
