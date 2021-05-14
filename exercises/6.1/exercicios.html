@@ -44,13 +44,38 @@
 					</select>
 					<br>
 					<label for="casa">
-						<input type="radio" name="lar" id="casa">Casa
+						<input type="radio" name="lar" id="casa" required>Casa
 					</label>
 					<label for="apartamento">
 						<input type="radio" name="lar" id="apartamento">Apartamento
 					</label>
        	 		</fieldset>
-      		</div>
+				<br>
+
+					<!-- Exercício 2 - Crie outro <fieldset> para dados do seu último emprego
+						
+						Resumo do currículo - TextArea, Limite de 1000 caracteres, Campo obrigatório
+						
+						Cargo - Texto, Limite de 40 caracteres, Campo obrigatório
+						
+						Descrição do cargo - Texto, Limite de 500 caracteres, Campo obrigatório
+						
+					Data de início - Texto, Verificar o formato da data dd/mm/aaaa; O dia deve ser > 0 e <= 31; O mês deve ser > 0 e <= 12; O ano não pode ser negativo; Caso alguma das condições seja inválida no momento do envio do formulário, exibir via alert uma mensagem de erro contextualizada; Campo obrigatório -->
+				<fieldset>
+					<label for="resumo-cv">Resumo do seu currículo:</label>
+					<textarea name="cv-resumido" id="resumo-cv" cols="31" rows="5" maxlength="1000" placeholder="Faça um resumo do seu currículo." required></textarea>
+					<br>
+					<label for="cargo">Seu cargo:</label>
+					<input type="text" name="cargo" id="cargo" maxlength="40" placeholder="Digite seu cargo." required>
+					<br>
+					<label for="cargo-descricao">Descrição do cargo</label>
+					<input type="text" name="cargo-descricao" id="cargo-descricao" maxlength="500" placeholder="Descreva seu cargo." required>
+					<br>
+					<label for="inicio">Data de início</label>
+					<input type="date" name="date-inicio" id="inicio" required>
+					<br>
+				</fieldset>
+			</div>
     	</form>
 	</body>
 </html>
