@@ -15,3 +15,9 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	p.trick {
+		color: purple;
+	}
+}
