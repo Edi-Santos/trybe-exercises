@@ -23,6 +23,7 @@ figure {
 
 @media screen and (min-width: 1000px) {
 	body {
+		width: 95%;
 		background-color: aliceblue;
 		font-size: 21px;
 	}
@@ -32,6 +33,6 @@ figure {
 	}
 
 	h2 {
-		font-size: 35px;
+		font-size: 30px;
 	}
 }
