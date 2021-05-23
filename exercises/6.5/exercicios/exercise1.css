@@ -1,6 +1,10 @@
 body {
+	width: 90%;
+	margin: auto;
 	font-size: x-large;
+	text-align: center;
 }
+
 h1 {
 	font-size: xx-large;
 }
