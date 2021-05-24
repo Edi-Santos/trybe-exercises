@@ -49,4 +49,17 @@ figure {
 		background-color: rgb(245, 245, 245);
 		font-size: x-large;
 	}
+
+	.container-text {
+		width: 85%;
+		max-width: 1300px;
+		margin: auto;
+	}
+
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		justify-content: space-around;
+		align-items: center;
+	}
 }
