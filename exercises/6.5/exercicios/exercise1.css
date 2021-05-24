@@ -43,3 +43,10 @@ figure {
 		justify-content: space-around;
 	}
 }
+
+@media screen and (min-width: 1300px) {
+	body {
+		background-color: rgb(245, 245, 245);
+		font-size: x-large;
+	}
+}
