@@ -74,10 +74,10 @@ let array = ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Git'];
 
 array.sort();
 
-const sobreMim = callback => {
-	return `\n${callback('Ed')} Minhas cinco principais habilidades são:
+const sobreMim = (nome, callback) => {
+	return `\n${callback(nome)} Minhas cinco principais habilidades são:
 ${array}
 #goTrybe`;
 };
 
-console.log(sobreMim(trocaPalavra));
+console.log(sobreMim('Ed', trocaPalavra));
