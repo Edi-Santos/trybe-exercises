@@ -26,3 +26,15 @@ console.log('Quarto console:');
 console.log(customer2);
 
 // Agora, para praticar, crie uma função que receba três parâmetros, sendo eles: um objeto, o nome de uma chave e o seu valor. O retorno dessa função deve ser o objeto já com a nova chave adicionada nele.
+
+console.log('\n----------------------------------------------------------------\n');
+console.log('Exercise:');
+
+let object = {};
+
+const addToObj = (obj, key, value) => {
+  obj[key] = value;
+  return object;
+};
+
+console.log(addToObj(object, 'name', 'Ed'));
