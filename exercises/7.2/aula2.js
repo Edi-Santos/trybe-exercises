@@ -21,11 +21,15 @@ const showSkills = (obj) => {
   let storingInfo = ``;
   storingInfo = Object.keys(obj);
   for (let i = 0; i < storingInfo.length; i += 1) {
-    console.log(`${storingInfo[i]}, Nível ${obj[storingInfo[i]]}`)
+    console.log(`${storingInfo[i]}, Nível: ${obj[storingInfo[i]]}`);
   };
 };
 
+console.log('Primeiro estudante:');
 console.log(showSkills(student1));
+console.log('--------------------');
+console.log('Segundo estudante:');
+console.log(showSkills(student2));
 
 
 
