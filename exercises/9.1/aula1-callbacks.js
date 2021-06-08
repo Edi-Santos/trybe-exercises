@@ -28,14 +28,14 @@ const userNationality = ({ firstName, nationality }) => `${firstName} is ${natio
 
 const delay = (maxMilliseconds = 5000) => Math.floor(Math.random() * maxMilliseconds);
 
-const getUser = (callback) => {
+const getUser = () => {
   setTimeout(() => {
     const user = {
       firstName: "Ivan",
       lastName: "Ivanovich",
       nationality: "Russian",
     };
-    console.log(callback(user));
+    console.log(user);
   }, delay());
 };
 
