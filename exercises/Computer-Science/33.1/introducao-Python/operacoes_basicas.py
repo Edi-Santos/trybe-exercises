@@ -26,3 +26,10 @@ print("\nExercício 2")
 print("Horas:", hours)
 print("Minutos:", minutes)
 print("Segundos:", seconds)
+
+# Exercício 3: Teste e verifique o que acontece se você colocar um ponto e
+# vírgula no final de uma instrução em Python.
+testing = "Meu pastel é mais barato";
+
+print("\nExercício 3")
+print("Testando ponto e vírgula ao final de uma instrução ---", testing)
