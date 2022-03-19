@@ -23,3 +23,15 @@ print(f"Criando novo objeto e ordenando: {orderdList}")
 
 fruits.sort()  # ordena a lista original alterando-a diretamente
 print(f"Ordenando lista: {fruits}")
+
+# Exercício 5: Adicione o elemento "Ciência da Computação" à lista.
+trybe_course = ["Introdução", "Front-end", "Back-end"]
+
+print("\nExercício 5")
+trybe_course.append("Ciência da Computação")
+print(f"Adicionando elemento à lista: {trybe_course}")
+
+# Exercício 6: Acesse e altere o primeiro elemento da lista para "Fundamentos".
+print("\nExercício 6")
+trybe_course[0] = "Fundamentos"
+print(f"Modificando o primeiro elemento da lista: {trybe_course}")
