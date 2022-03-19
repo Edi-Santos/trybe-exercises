@@ -33,3 +33,16 @@ testing = "Meu pastel é mais barato";
 
 print("\nExercício 3")
 print("Testando ponto e vírgula ao final de uma instrução ---", testing)
+
+# Exercício 4: Suponha que o preço de capa de um livro seja 24,20, mas
+# as livrarias recebem um desconto de 40%. O transporte custa 3,00 para o
+# primeiro exemplar e 75 centavos para cada exemplar adicional.
+# Qual é o custo total de atacado para 60 cópias? Escreva uma expressão
+# que receba o custo total e a imprima.
+custoCapaLivro = 24.20
+descontoLivraria = custoCapaLivro - (custoCapaLivro * 40 / 100)
+custoTransporte = 0.75 * 59 + 3.00
+custoTotal = descontoLivraria + custoTransporte
+
+print("\nExerício 4")
+print(f"Custo total de atacado para 60 cópias de livros: R$ {custoTotal:,.2f}")
