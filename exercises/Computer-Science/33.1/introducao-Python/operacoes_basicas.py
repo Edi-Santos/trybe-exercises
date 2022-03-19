@@ -29,10 +29,12 @@ print("Segundos:", seconds)
 
 # Exercício 3: Teste e verifique o que acontece se você colocar um ponto e
 # vírgula no final de uma instrução em Python.
-testing = "Meu pastel é mais barato";
+testing = "Meu pastel é mais barato"
 
 print("\nExercício 3")
 print("Testando ponto e vírgula ao final de uma instrução ---", testing)
+print("Aqui nós temos um erro de sintaxe pois o \
+  Python não exige ; ao final de suas instruções")
 
 # Exercício 4: Suponha que o preço de capa de um livro seja 24,20, mas
 # as livrarias recebem um desconto de 40%. O transporte custa 3,00 para o
