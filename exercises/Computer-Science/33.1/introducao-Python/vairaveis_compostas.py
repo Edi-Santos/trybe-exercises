@@ -35,3 +35,35 @@ print(f"Adicionando elemento à lista: {trybe_course}")
 print("\nExercício 6")
 trybe_course[0] = "Fundamentos"
 print(f"Modificando o primeiro elemento da lista: {trybe_course}")
+
+
+# Tuplas - são similares a listas, porém não podem ser modificados durante
+# a exercução do programa
+user = ("Cássio", "Botaro", 42)  # elementos são definidos e separados por
+# vírgula, envolvidos por parenteses
+print(f"\nTuplas são acessadas por índices: {user[0]}")
+
+
+# Conjuntos(set) - são elementos únicos e não ordenados. Como conjuntos,
+# implementam operações de união, intersecção e outras
+permissions = {"member", "group"}  # elementos separados por vírgula,
+# envolvidos por chaves
+
+permissions.add("root")  # adiciona um novo elemento ao conjunto
+print(f"\nAdicionando um novo elemento ao conjunto: {permissions}")
+
+permissions.add("member")
+print(f"Como já existe um elemento 'member',\
+  não é criado novamente: {permissions}")
+
+unified_sets = permissions.union({"user"})  # retorna um conjunto resultante
+# da união de dois conjuntos
+print(f"Fazendo a união entre dois conjuntos: {unified_sets}")
+
+intersection_set = permissions.intersection({"user", "member"})  # retorna
+# um conjunto resultante da intersecção dos conjuntos
+print(f"Fazendo a interseção entre conjuntos: {intersection_set}")
+
+difference = permissions.difference({"user"})  # retorna a diferença entre
+# os conjuntos
+print(f"Retornando a diferença entre um conjunto e outro: {difference}")
