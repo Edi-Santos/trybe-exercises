@@ -86,3 +86,24 @@ difference_fst = permissions_fst.difference({"user"})  # retorna a diferença
 # entre dois conjuntos
 print(f"Retornando a diferença entre um\
 conjunto imutável e outro: {difference_fst}")
+
+
+# Dicionários(dict) - é a estrutura que associa uma chave a um determinado
+# valor. É a representação do tão famoso "objeto" que utilizamos no JavaScript
+people_by_id = {1: "Cássio", 2: "João", 3: "Felipe"}  # elementos nos formato
+# "chave: valor" separados por vírgula, envolvidos por chaves
+
+people_by_name = {"Cássio": 1, "João": 2, "Felipe": 3}  # outro exemplo, desta
+# vez, usando strings como chaves (ao contraŕio de JS, as aspas duplas são
+# obrigatórias)
+
+print(f"\nOs elementos dos 'dicts' são acessados por suas chaves: \
+{people_by_id[1]}")  # elementos acessados através de suas chaves
+
+del people_by_id[1]  # os elementos podem ser removidos utilizando a palavara
+# reservada "del"
+print(f"Elementos são removidos pela palavara reservada 'del': \
+{people_by_id}")
+
+print(f"Retornando um conjunto com tuplas contendo chaves e valores de um \
+dict: {people_by_id.items()}")
