@@ -107,3 +107,16 @@ print(f"Elementos são removidos pela palavara reservada 'del': \
 
 print(f"Retornando um conjunto com tuplas contendo chaves e valores de um \
 dict: {people_by_id.items()}")
+
+
+# Exerícios
+print("\nExercícios")
+info = {
+  "personagem": "Margarida",
+  "origem": "Pato Donald",
+  "nota": "Namorada do personagem principal nos quadrinhos do Pato Donald",
+}
+# Exercício 8: O que acontecerá se você tentar acessar o valor da chave
+# "personagem" como fazíamos em JavaScript, utilizando object.key?
+print("Erro de atributo ao tentar acessar um elemento como no JavaScript \
+utilizando object.keys(info[\"personagem\"])")
