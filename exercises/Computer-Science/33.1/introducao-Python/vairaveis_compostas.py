@@ -127,3 +127,9 @@ info["recorrente"] = "Sim"
 
 print(f"\nExercício 9 - Adicionando uma propriedade ao dict info: \
 {info}")
+
+# Exercício 10: Remova a propriedade cuja chave é "origem" e imprima o
+# objeto no console.
+del info["origem"]
+print(f"\nExercício 10 - Removendo a propriedade \"origem\" do dict \
+info: {info}")
