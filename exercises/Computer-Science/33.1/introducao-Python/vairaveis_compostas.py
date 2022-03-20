@@ -133,3 +133,20 @@ print(f"\nExercício 9 - Adicionando uma propriedade ao dict info: \
 del info["origem"]
 print(f"\nExercício 10 - Removendo a propriedade \"origem\" do dict \
 info: {info}")
+
+# Range - estrutura capaz de gerar uma sequência numérica de um valor inicial
+# até um valor final, modificando seu valor de acordo com o passo (step)
+# definido. Pode ser declarado como range([start], stop[, step]), em que
+# "start" e "step" podem ser omitidos, possuindo valores iniciais igual
+# 0 e 1 respectivamente.
+print(f"\nGerando uma lista de 0 a 5: {list(range(5))}")  # gera uma lista
+# de 0 a 4 definindo apenas o valor de parada
+
+print(f"Gerando uma lista de 1 a 5: {list(range(1, 6))}")  # gera uma lista
+# de 1 a 5 definindo o valor inicial e o de parada
+
+print(f"Gerando uma lista e modificando o passo: {list(range(1, 11, 2))}")
+# gera uma lista indicando o valor inicial, de parada e de passo entre números
+
+print(f"Gerando uma lista com passo negativo: {list(range(10, 0, -2))}")
+# gera uma lista de contagem regressiva usando passo negativo
