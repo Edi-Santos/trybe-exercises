@@ -120,3 +120,10 @@ info = {
 # "personagem" como fazíamos em JavaScript, utilizando object.key?
 print("Erro de atributo ao tentar acessar um elemento como no JavaScript \
 utilizando object.keys(info[\"personagem\"])")
+
+# Exercício 9: Insira no objeto uma nova propriedade com o nome de chave
+# "recorrente" e o valor "Sim". Em seguida, imprima o objeto no console.
+info["recorrente"] = "Sim"
+
+print(f"Exercício 9 - Adicionando uma propriedade ao dict info: \
+{info}")
