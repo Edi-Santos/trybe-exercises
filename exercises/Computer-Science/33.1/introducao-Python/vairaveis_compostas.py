@@ -67,3 +67,22 @@ print(f"Fazendo a interseção entre conjuntos: {intersection_set}")
 difference = permissions.difference({"user"})  # retorna a diferença entre
 # os conjuntos
 print(f"Retornando a diferença entre um conjunto e outro: {difference}")
+
+
+# Conjuntos imutáveis(frozenset) - é uma variação do set, porém imutável,
+# ou seja, seu elementos não podem ser modificados durante a execução.
+permissions_fst = frozenset(["member", "group"])  # assim como o set, qualquer
+# estrutura iterável pode ser utilizada para criar um frozenset
+union_fsz = permissions_fst.union({"user"})  # novos conjunstos imutáveis
+# podem ser criados à partir do original, mas o mesmo não pode ser modificado
+print(f"\nCriando um novo conjunto a partir de \
+um conjunto imutável: {union_fsz}")
+
+intersection_fst = permissions_fst.intersection({"user", "member"})  # retorna
+# um conjunto resultante da interseção dos conjuntos
+print(f"Fazendo a interseção entre conjuntos imutáveis: {intersection_fst}")
+
+difference_fst = permissions_fst.difference({"user"})  # retorna a diferença
+# entre dois conjuntos
+print(f"Retornando a diferença entre um\
+conjunto imutável e outro: {difference_fst}")
