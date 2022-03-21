@@ -46,3 +46,24 @@ while last < n:
     fibancci.append(last)
     last, next = next, last + next
 print(f"Fibonacci: {fibancci}")
+
+
+# Exercícios
+print("\nExercícios")
+
+# Exercício 13: O Fatorial de um número inteiro é representado pela
+# multiplicação de todos os números predecessores maiores que 0. Por exemplo
+# o fatorial de 5 é 120 pois 5! = 1 * 2 * 3 * 4 * 5 . Escreva um código que
+# calcule o fatorial de um número inteiro.
+number = 5
+n1 = 1
+factors = []
+factorial = 1
+
+while n1 <= number:
+    factors.append(n1)
+    n1 += 1
+
+for factor in factors:
+    factorial = factorial * factor
+print(f"Exercício 13 - Fatorial de {number}: {factorial}")
