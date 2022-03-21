@@ -32,3 +32,16 @@ filtered_restaurants_name = [restaurant_name["name"]
                              for restaurant_name in restaurants
                              if restaurant_name["nota"] > min_rating]
 print(f"Pegando apenas os nomes dos restaurantes: {filtered_restaurants_name}")
+
+
+# O while funciona de forma bem parecida com o for usado no JavaScript
+# executando um trecho de código enquanto aquela condição for verdadeira
+print("\nWhile")
+n = 10
+last, next = 0, 1  # Atribuição múltipla. Esta é uma forma de atribuir
+# valores, na mesma linha, a mais de uma variável
+fibancci = []
+while last < n:
+    fibancci.append(last)
+    last, next = next, last + next
+print(f"Fibonacci: {fibancci}")
