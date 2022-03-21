@@ -3,6 +3,7 @@
 
 
 # Percorrer uma lista de restaurantes de acordo com a nota buscada
+print("\nFor")
 restaurants = [
   {"name": "Restaurante A", "nota": 4.5},
   {"name": "Restaurante B", "nota": 3.0},
@@ -17,7 +18,7 @@ min_rating = 3.0
 for restaurant in restaurants:
     if restaurant["nota"] > min_rating:
         filtered_restaurants.append(restaurant)
-print(f"\nLista de restaurantes com nota acima de 3.0: \
+print(f"Lista de restaurantes com nota acima de 3.0: \
 {filtered_restaurants}")
 
 # Outra forma de popular um array quando se precisa filtrar dados de
