@@ -81,3 +81,12 @@ for rating in ratings:
     acc += 1
 print(f"Exercício 14 - Alterando os valeres de uma lista de avaliações: \
 {ratings}")
+
+# Exercício 15: Percorra a lista do exercício 14 e imprima "Múltiplo de 3"
+# se o elemento for divisível por 3.
+divisible_by_3 = []
+for rate in ratings:
+    if rate % 3 == 0:
+        divisible_by_3.append(rate)
+print(f"Exercício 15 - Números da lista de avaliação divisíveis por 3: \
+{divisible_by_3}")
