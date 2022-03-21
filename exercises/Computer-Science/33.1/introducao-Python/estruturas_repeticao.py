@@ -67,3 +67,17 @@ while n1 <= number:
 for factor in factors:
     factorial = factorial * factor
 print(f"Exercício 13 - Fatorial de {number}: {factorial}")
+
+# Exercício 14: Um sistema de avaliações registra valores de 0 a 10 para cada
+# avaliação. Após algumas mudanças estes valores precisam ser ajustados para
+# avaliações de 0 a 100. Dado uma sequência de avaliações
+# ratings = [6, 8, 5, 9, 10]. Escreva um código capaz de gerar as avaliações
+# após a mudança. Neste caso o resultado deveria ser [60, 80, 50, 90, 100].
+ratings = [6, 8, 5, 9, 10]
+acc = 0
+
+for rating in ratings:
+    ratings[acc] = rating * 10
+    acc += 1
+print(f"Exercício 14 - Alterando os valeres de uma lista de avaliações: \
+{ratings}")
