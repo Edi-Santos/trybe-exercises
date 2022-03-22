@@ -43,3 +43,28 @@ for nome in lista_nomes:
     if len(maior_nome) < len(nome):
         maior_nome = nome
 print(f"Exercício 4 - Imprimindo o maior nome da lista: {maior_nome}")
+
+# Exercício 5: Considere que a cobertura da tinta é de 1 litro para cada 3
+# metros quadrados e que a tinta é vendida em latas de 18 litros, que custam
+# R$ 80,00. Crie uma função que retorne dois valores em uma tupla contendo
+# a quantidade de latas de tinta a serem compradas e o preço total a partir
+# do tamanho de uma parede(em m²).
+
+
+def tinta_para_metros(metros):
+    metro_lata = 58
+    preco_lata = 80.00
+    quantidade_latas = 0
+    preco_total = 0
+
+    if metros <= metro_lata:
+        quantidade_latas = 1
+    else:
+        quantidade_latas = metros // metro_lata + 1
+        preco_total = preco_lata * quantidade_latas
+
+    return (quantidade_latas, preco_total)
+
+
+print(f"Exercpicio 5 - Quantidade de latas e preço total: \
+{tinta_para_metros(80)}")
