@@ -68,3 +68,27 @@ def tinta_para_metros(metros):
 
 print(f"Exercpicio 5 - Quantidade de latas e preço total: \
 {tinta_para_metros(80)}")
+
+# Exercício 6: Crie uma função que receba os três lados de um triângulo e
+# informe qual o tipo de triângulo formado ou "não é triangulo" , caso não
+# seja possível formar um triângulo.
+
+
+def tipo_triangulo(ladoA, ladoB, ladoC):
+    triangulo = (
+        ladoA + ladoB > ladoC and
+        ladoB + ladoC > ladoA and
+        ladoC + ladoA > ladoB
+    )
+
+    if not triangulo:
+        return "Não é triângulo"
+    elif ladoA == ladoB == ladoC:
+        return "Triângulo equilátero"
+    elif ladoA == ladoB or ladoA == ladoC or ladoB == ladoC:
+        return "Triângulo isósceles"
+    else:
+        return "Triângulo escaleno"
+
+
+print(f"Exerício 6 - Tipo de triângulo: {tipo_triangulo(5, 9, 5)}")
