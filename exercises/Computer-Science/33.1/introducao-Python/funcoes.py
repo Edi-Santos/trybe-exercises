@@ -29,3 +29,6 @@ def concat(*strings):
 
 to_print_concat = concat("Carlos", "João", "Botaro")
 print(f"Parâmetros variádicos: {to_print_concat}")
+
+# Variáveis definidas dentro das funções têm escopo local, porém uma função,
+# quando não encontra um nome no escopo local irá procurar no escopo global.
