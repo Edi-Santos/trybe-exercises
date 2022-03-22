@@ -21,3 +21,13 @@ for numero in lista_numeros:
 
 media = soma_numeros / tamanho_lista
 print(f"Exercício 2 - Calcula a média de uma lista: {media}")
+
+# Exercício 3: Faça um programa que, dado um valor n qualquer, tal que n > 1,
+# imprima na tela um quadrado feito de asteriscos de lado de tamanho n.
+print("Exercício 3 - Imprimindo quadrado de '*' dado um 'n' valor")
+n3 = 5
+
+if n3 > 1:
+    n3_list = range(n3)
+    for number3 in n3_list:
+        print("*" * n3)
