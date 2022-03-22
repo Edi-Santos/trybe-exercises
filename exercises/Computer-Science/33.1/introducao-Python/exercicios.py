@@ -31,3 +31,15 @@ if n3 > 1:
     n3_list = range(n3)
     for number3 in n3_list:
         print("*" * n3)
+
+# Exercício 4: Crie uma função que receba uma lista de nomes e retorne o nome
+# com a maior quantidade de caracteres. Por exemplo, para
+# ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"],
+# o retorno deve ser "Fernanda".
+lista_nomes = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]
+maior_nome = ""
+
+for nome in lista_nomes:
+    if len(maior_nome) < len(nome):
+        maior_nome = nome
+print(f"Exercício 4 - Imprimindo o maior nome da lista: {maior_nome}")
