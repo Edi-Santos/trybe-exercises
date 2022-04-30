@@ -56,3 +56,15 @@ file3 = open("arquivo3.txt", mode="r")
 for line in file3:
     print(line)  # não esqueça que a quebra de linha também é um caractere da linha
 file3.close()  # não podemos esquecer de fechar o arquivo
+
+
+# Temos ainda o "with" que é uma palavra reservada para gerenciamento de contexto.
+# Aqui acontece um encapsulamento de um recurso garantindo que certas ações sejam
+# tomadas independentemente se ocorreu erro ou não naquele contexto.
+
+# Criamos um contexto, limitando o escopo onde o arquivo está aberto.
+# O uso do "as" aqui é somente para atribuir o valor utilizado no contexto à variável file
+with open("arquivo.txt", "w") as file:
+    file.write("Michelle 27\n")
+# como estamos fora do contexto, o arquivo foi fechado
+print(file.closed)
