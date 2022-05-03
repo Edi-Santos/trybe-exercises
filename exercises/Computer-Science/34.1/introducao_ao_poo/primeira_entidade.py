@@ -19,3 +19,9 @@ print(meu_user)
 print(meu_user.name)
 print(meu_user.email)
 print(meu_user.password)
+
+# Usando termos mais técnicos, nós criamos primeiro a nossa classe (que é algo
+# "genérico" para ser reaproveitado depois) e em seguida atribuímos à nossa
+# variável um objeto (que é uma entidade específica, neste caso, um usuário
+# novo).
+#
