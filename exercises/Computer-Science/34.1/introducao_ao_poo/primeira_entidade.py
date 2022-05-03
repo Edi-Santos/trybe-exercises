@@ -24,4 +24,18 @@ print(meu_user.password)
 # "genérico" para ser reaproveitado depois) e em seguida atribuímos à nossa
 # variável um objeto (que é uma entidade específica, neste caso, um usuário
 # novo).
-#
+
+# Toda classe capaz de criar objetos deve possuir um método construtor. No
+# Python, o método construtor é, sempre, definido com o nome "__init__" logo
+# abaixo da declaração da classe. Por trás dos panos, o Python utilizará a sua
+# lógica para criar e retornar um objeto.
+
+# class User:
+#     def __init__(self, name, email, password):
+#         """ Método construtor da classe User. Note que
+#         o primeiro parâmetro deve ser o `self`. Isso é
+#         uma particularidade de Python, vamos falar mais
+#         disso adiante!"""
+#         self.name = name
+#         self.email = email
+#         self.password = password
